@@ -7,15 +7,15 @@
         >>-[+>>>>-]+ ; Go to the fast pointer
         >>[>>>>]+++ ; Set top value to 3
         <<-[+<<<<-]+ ; Go back to the fast pointer
-        <<[>>>+>[>>>>]<<<<-<<-[+<<<<-]+<<-] ; Set top value to 3 minus fast
-        >>>[<<<+>>>-] ; Restore fast value
+        <<[>>>+>[>>>>]<<<<-<<-[+<<<<-]+<<-] ; Set top value to 3 minus fast pointer value
+        >>>[<<<+>>>-] ; Restore fast pointer value
         <<<[>>>>]<<<++++++[<++++++++>-]<. ; Output top value as character
         >++++++[<-------->-] ; Restore to number
         -[+<<<<-]+<- ; Decrement slow pointer value
     ]
     >>>[<<<+>>>-] ; Restore slow pointer value
     <-[+>>>>-]+ ; Go to the fast pointer
-    [>>[>>>>]<<+<<<<-[+<<<<-]] ; Move fast pointer to the next
+    [>>[>>>>]<<+<<<<-[+<<<<-]] ; Move fast pointer to top
     <-[+<<<<-]+[>>>>+<<<<-] ; Move slow pointer to the next
     >>-[+<<<<-]+ ; Move back to infinite loop flag
 ]
