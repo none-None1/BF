@@ -1,3 +1,4 @@
+BFC4 BFCE
 +++++___#+#+##+#--#-#-#> [We're no strangers to love]<
 +#_#+_#+_#--#-#+++++++#______#---# >[You know the rules and so do I]<
 ---#_#+#+#--#++#+#_--#-#-# >[A full commitment is what I'm thinking of]<
